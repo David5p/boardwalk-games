@@ -23,6 +23,13 @@ h1, h2, h3 {
 .sub-heading-color {
     color: var(--highlight-color);
 }
+
+/* Navbar */
+
+#navbar {
+    background-color: var(--primary-color);
+    
+}
 /* grid visualisation CSS for testing */
 
 /*.container,
