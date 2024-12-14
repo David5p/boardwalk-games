@@ -165,6 +165,14 @@ h2 {
         min-height: auto;
     }
 }
+/*Make table and paragraph fit alongside each other on large devices and up (992px and up) 
+/* Large devices (small laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #events {
+       justify-content:left;
+    }
+}
+
 
 /* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
