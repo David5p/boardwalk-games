@@ -165,12 +165,12 @@ h2 {
         min-height: auto;
     }
 }
-/*Make table and paragraph fit alongside each other on large devices and up (992px and up) 
-/* Large devices (small laptops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #events {
-       justify-content:left;
-    }
+/*Move button to center in events section on x large devices and up (1200px and up) 
+/* x Large devices (desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { 
+    #events a .custom-button-outline {
+    justify-content: center;
+ }
 }
 
 
