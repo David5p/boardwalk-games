@@ -264,24 +264,10 @@
                                 <option value="exploding-kittens">Exploding Kittens</option>
                                 <option value="cluedo">Cluedo</option>
                             </select>
-
-                            <div id="calendar" class="col-12 mb-3">
-                                <label for="date" class="col-form-label">Requested date</label>
-                                    <div class="input-group date" id="datepicker">
-                                        <input type="text" class="form-control">
-                                        <span class="input-group-append">
-                                            <span class="input-group-text bg-white d-block">
-                                                <i class="fa fa-calendar"></i>
-                                            </span>
-                                        </span>
-                                        <script type="text/javascript">
-                                            $(function() {
-                                                $('#datepicker').datepicker({dateFormat: "dd/mm/yyyy"});
-                                            });
-                                        </script>
-                                    </div>
+                                <div class="col-12 col-lg-6">
+                                <label for="date" class="form-label">Requested date</label>
+                                <input class="form-control" id="date" name="date" type="date" required>
                                 </div>
-                            </div>
                         </div>
                     </div>
                     <div class="text-end">
